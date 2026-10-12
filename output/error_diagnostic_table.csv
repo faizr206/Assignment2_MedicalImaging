@@ -1,0 +1,4 @@
+,selection,case_id,boundary_error_fraction_within_2mm,mostly_missed_small_components,false_positive_voxels,false_negative_voxels
+0,Best,BRATS_112,0.9936253798828849,1,5020,8471
+1,Median,BRATS_002,0.7340580100091482,0,16910,1673
+2,Worst,BRATS_078,0.4450382981488551,6,58351,64762
