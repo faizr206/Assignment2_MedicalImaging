@@ -97,13 +97,13 @@ Execute the notebook **top-to-bottom**; the sections are already in this order:
 
 | Stage | Approx. time (NVIDIA RTX 5000 Ada) |
 |---|---|
-| Training, each sampler (500 updates) | **[FILL IN — e.g., ~10 min]** |
+| Training, each sampler (500 updates) | ~5.7 min each (~11 min 22 s for both) |
 | Sliding-window ablation, 3 strides × 73 volumes | 149.9 s / 166.7 s / 267.6 s |
 | Postprocessing ablation, 4 configs × 73 volumes | ~150–190 s each |
 | Final test inference (73 cases) | ~186 s total (~2.54 s/case) |
 | Bonus: seam test (3 overlap settings) | 392.4 / 392.8 / 499.2 s |
-| Bonus: missing-modality test (5 settings) | **[FILL IN]** |
-| **Total notebook run** | **[FILL IN — e.g., ~45 min on RTX 5000 Ada]** |
+| Bonus: missing-modality test (4 zeroed channels) | ~12 min 26 s total |
+| **Total notebook run** | **~70 min** |
 
 CPU-only execution is possible but will take considerably longer.
 
