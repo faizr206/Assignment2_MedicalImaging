@@ -1,0 +1,10 @@
+# ENG 2440 Assignment 2 - environment
+# Tested with Python 3.13.5 + CUDA 12.x GPU (NVIDIA RTX 5000 Ada)
+# Install: pip install -r requirements.txt
+
+torch>=2.5
+numpy>=2.0
+scipy>=1.14
+nibabel>=5.3
+pandas>=2.2
+matplotlib>=3.10

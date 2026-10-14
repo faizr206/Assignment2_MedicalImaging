@@ -1,0 +1,70 @@
+AI-USE DECLARATION
+==================
+Course:        ENG 2440 Medical Imaging & AI in Healthcare (Fall 2026)
+Assignment:    Assignment 2 - Tumor Segmentation in MRI Volumes
+Name:          Faiz Rizki Ramadhan
+Student ID:    25011106
+Date:          October 2026
+
+STATEMENT
+---------
+I used generative-AI / large-language-model tools during this assignment in the
+ways disclosed below. I remain responsible for every line of code, every output,
+and every claim in the submission. I ran every experiment myself, inspected all
+reported numbers against my own executed notebook outputs, and can explain the
+full pipeline (geometry handling, sampling, training, sliding-window inference,
+postprocessing, and evaluation). No AI tool was used during the oral defence and
+no results, experiments, or citations were fabricated by AI.
+
+TOOLS USED
+----------
+
+1. Tool:      OpenCode (CLI coding agent) with GLM-5.3-Flash (Z.ai)
+   Purpose:   - Debugging errors in my PyTorch pipeline code and fixing bugs I
+                could not resolve myself.
+              - Writing several parts of the implementation code (e.g., parts of
+                the preprocessing, training, sliding-window inference,
+                postprocessing, and evaluation/plotting code in the notebook).
+              - LaTeX report template, structure, and review/editing of the
+                written report prose.
+              - Creating README.md, requirements.txt, and this declaration.
+   Prompts /  Interactive local CLI session; no public transcript link.
+   link:      Representative prompts: "debug this DataLoader shape error",
+              "implement sliding-window inference with probability averaging",
+              "review my report against the assignment brief".
+   Affected   Notebook: preprocessing (Task C), Dataset/DataLoader and training
+   sections:  (Task D), full-volume reconstruction and evaluation (Task F),
+              bonus experiments (missing-modality, seam test).
+              Report: all sections (drafting/editing assistance).
+              Repository files: README.md, requirements.txt, ai_use_declaration.txt.
+
+2. Tool:      ChatGPT (OpenAI)
+   Purpose:   Writing assistance — drafting and polishing parts of the written
+              report prose.
+   Prompts /  Interactive web session; no preserved transcript link.
+   link:
+   Affected   Report text (prose drafting/editing). All AI-suggested wording was
+   sections:  reviewed against my own executed results before inclusion.
+
+3. Tool:      Gemini (Google)
+   Purpose:   Writing assistance — drafting and polishing parts of the written
+              report prose.
+   Prompts /  Interactive web session; no preserved transcript link.
+   link:
+   Affected   Report text (prose drafting/editing). All AI-suggested wording was
+   sections:  reviewed against my own executed results before inclusion.
+
+VERIFICATION
+------------
+All figures, tables, and metrics in the report were produced by executing the
+notebook myself on the hardware listed in README.md. I re-checked AI-assisted
+code against the assignment requirements (tensor shapes, geometry safety, split
+discipline, controlled comparisons) and verified outputs numerically. Test-set
+labels were loaded only in the final evaluation stage.
+
+DATA PRIVACY
+------------
+No MRI volumes, segmentation masks, or extracted patches were uploaded to or
+shared with any AI service. Only source code, error messages, and aggregate
+summary statistics (e.g., mean/median metrics over cases) were discussed with
+AI tools. No dataset content was copied to Moodle or this repository.
